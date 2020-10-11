@@ -3,7 +3,7 @@ import dwave.inspector
 
 sampler = EmbeddingComposite(DWaveSampler(
     solver='DW_2000Q_6',
-    token='',
+    #token='',
 ))
 
 h = {}
